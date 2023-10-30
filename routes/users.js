@@ -19,7 +19,7 @@ router.get('/mw', async function(req, res, next) {
   res.end(img);
 });
 
-router.get('/zzd', async function(req, res, next) {
+router.get('/zd', async function(req, res, next) {
   let json = await zdFetch(req.query.key);
   res.send(json);
 });
